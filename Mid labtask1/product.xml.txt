@@ -1,22 +1,20 @@
 <Products>
- <Id>
-  <No>11</No>
-  <No>20</No>
-  <No>23</No>
- </Id>
-<Name> 
- <Product name>Samsung</Product>
- <Product name>Htc</Product>
- <Product name>Nokia</Product>
-</Name>
-<Unit Price>
- <price>35000</price>
- <price>65300</price>
- <price>25100</price>
-</Unit Price>
-<Status>
- <total>1</total>
- <total>0</total>
- <total>1</total>
-</Status>
+	<ProductsName Id="11">
+		<Name> Samsung </Name>
+		<Unit-price> 35000 </Unit-price>
+		<Stock> 50 </Stock>
+        <Status> 1 </Status>
+	</ProductsName>
+	<ProductsName Id="20">
+		<Name> HTC </Name>
+		<Unit-price> 65300 </Unit-price>
+		<Stock> 35 </Stock>
+        <Status> 0 </Status>
+	</ProductsName>
+    <ProductsName id="23">
+		<Name> Nokia </Name>
+		<Unit-price> 25100 </Unit-price>
+		<Stock> 100 </Stock>
+        <Status> 1 </Status>
+	</ProductsName>
 </Products>
